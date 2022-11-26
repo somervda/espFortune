@@ -1,0 +1,14 @@
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.exe
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.deps.json
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.runtimeconfig.json
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.runtimeconfig.dev.json
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.dll
+C:\projects\espFortune\fortuneMaker\bin\Debug\netcoreapp3.1\fortuneMaker.pdb
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.csproj.AssemblyReference.cache
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.AssemblyInfoInputs.cache
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.AssemblyInfo.cs
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.csproj.CoreCompileInputs.cache
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.dll
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.pdb
+C:\projects\espFortune\fortuneMaker\obj\Debug\netcoreapp3.1\fortuneMaker.genruntimeconfig.cache
