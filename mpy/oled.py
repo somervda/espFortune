@@ -1,34 +1,36 @@
 import ssd1306
 import time
 import random
+
+
 def showFortune():
     fortuneFileNumber = random.randrange(1, 13)
     # the fortunes are broken into 12 python files
-    # to save memory usage (Only one or 2 can be imported in avalable memory)
+    # to save memory usage (Only one or 2 can be imported in available memory)
     # only one of them is imported at random
-    if fortuneFileNumber==1 :
+    if fortuneFileNumber == 1:
         import fortune1 as fortune
-    if fortuneFileNumber==2 :
+    if fortuneFileNumber == 2:
         import fortune2 as fortune
-    if fortuneFileNumber==3 :
+    if fortuneFileNumber == 3:
         import fortune3 as fortune
-    if fortuneFileNumber==4 :
+    if fortuneFileNumber == 4:
         import fortune4 as fortune
-    if fortuneFileNumber==5 :
+    if fortuneFileNumber == 5:
         import fortune5 as fortune
-    if fortuneFileNumber==6 :
+    if fortuneFileNumber == 6:
         import fortune6 as fortune
-    if fortuneFileNumber==7 :
+    if fortuneFileNumber == 7:
         import fortune7 as fortune
-    if fortuneFileNumber==8 :
+    if fortuneFileNumber == 8:
         import fortune8 as fortune
-    if fortuneFileNumber==9 :
+    if fortuneFileNumber == 9:
         import fortune9 as fortune
-    if fortuneFileNumber==10 :
+    if fortuneFileNumber == 10:
         import fortune10 as fortune
-    if fortuneFileNumber==11 :
+    if fortuneFileNumber == 11:
         import fortune11 as fortune
-    if fortuneFileNumber==12 :
+    if fortuneFileNumber == 12:
         import fortune12 as fortune
     from machine import Pin
     from machine import I2C
@@ -40,7 +42,7 @@ def showFortune():
     # Initialize the OLED display
     i2c_rst.value(0)
     time.sleep_ms(5)
-    i2c_rst.value(1) # must be held high after initialization
+    i2c_rst.value(1)  # must be held high after initialization
     # Setup the I2C lines
     i2c_scl = Pin(15, Pin.OUT, Pin.PULL_UP)
     i2c_sda = Pin(4, Pin.OUT, Pin.PULL_UP)
@@ -52,7 +54,7 @@ def showFortune():
     # fortunes in the fortune file
     fortuneNumber = random.randrange(1, 150)
     # print(fortuneNumber)
-    fortuneLines = getattr(fortune, "F" +  str(fortuneNumber))
+    fortuneLines = getattr(fortune, "F" + str(fortuneNumber))
     # Get the particular fortune by referencing the variable dynamically
     # The fortune is a dictionary item broken into 5 lines
     oled.fill(0)

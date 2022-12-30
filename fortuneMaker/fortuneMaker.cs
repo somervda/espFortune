@@ -9,7 +9,7 @@ namespace fortuneMaker
         static void Main(string[] args)
         {
             // Simple script to read the file of fortunes (https://github.com/ianli/fortune-cookies-galore/blob/master/fortunes.txt) and
-            // rewrite them into 10 separeate python files each containing 150 fortunes, while I am att it I will check the length of each fortune
+            // rewrite them into separate python modules each containing 150 fortunes, while I am at it I will check the length of each fortune
             // and write them as a python dict item that contains 5 lines of data preformated for a ssd1306 OLED display. The
             // dictionary items will be names F<NNN> i.e. F023 = { "l1" : "Everybody is", "l2" : "ignorant..." , "l3" : "only on different" , "l4":"subjects", "l5":""} 
             // If the fortune can not be formated to fit (5 lines of 16 characters = 80 characters max) then it is skipped
